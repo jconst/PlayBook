@@ -1,0 +1,284 @@
+TPlayBook
+v7
+r1
+cCheck dependencies
+
+N/Users/Joseph/Documents/PlayBook/DetailView.xib
+c000000004CD5C6540000000000007E62
+t1289078356
+s32354
+
+N/Users/Joseph/Documents/PlayBook/Images/ArrowheadCut.png
+c000000004C8AA0C6000000000000037F
+t1284153542
+s895
+
+N/Users/Joseph/Documents/PlayBook/Images/ArrowheadShot.png
+c000000004C8D4102000000000000102C
+t1284325634
+s4140
+
+N/Users/Joseph/Documents/PlayBook/Images/BallToken.png
+c000000004C6D851F00000000000018E9
+t1282245919
+s6377
+
+N/Users/Joseph/Documents/PlayBook/Images/ConeToken.png
+c000000004C6D7F610000000000001A5F
+t1282244449
+s6751
+
+N/Users/Joseph/Documents/PlayBook/Images/Court.png
+c000000004C6D75E9000000000002AE17
+t1282242025
+s175639
+
+N/Users/Joseph/Documents/PlayBook/Images/DefenseToken.png
+c000000004C6D944D000000000000188C
+t1282249805
+s6284
+
+N/Users/Joseph/Documents/PlayBook/Images/DrawModeCut.png
+c000000004C7A9B690000000000003079
+t1283103593
+s12409
+
+N/Users/Joseph/Documents/PlayBook/Images/DrawModeDribble.png
+c000000004C7A9AC40000000000003654
+t1283103428
+s13908
+
+N/Users/Joseph/Documents/PlayBook/Images/DrawModeFreehand.png
+c000000004C7A9CEB000000000000349A
+t1283103979
+s13466
+
+N/Users/Joseph/Documents/PlayBook/Images/DrawModePass.png
+c000000004C7A95E90000000000003779
+t1283102185
+s14201
+
+N/Users/Joseph/Documents/PlayBook/Images/DrawModeScreen.png
+c000000004C7A9DFE000000000000395B
+t1283104254
+s14683
+
+N/Users/Joseph/Documents/PlayBook/Images/DrawModeShot.png
+c000000004C7AA10600000000000032FB
+t1283105030
+s13051
+
+N/Users/Joseph/Documents/PlayBook/Images/DribblePattern.png
+c000000004C8D375E0000000000000D95
+t1284323166
+s3477
+
+N/Users/Joseph/Documents/PlayBook/Images/LCD.png
+c000000004CD5BA4D0000000000000AE7
+t1289075277
+s2791
+
+N/Users/Joseph/Documents/PlayBook/Images/OffenseToken.png
+c000000004C6D936400000000000019F7
+t1282249572
+s6647
+
+N/Users/Joseph/Documents/PlayBook/Images/RecycleBin.png
+c000000004C6E063E000000000000C6AE
+t1282278974
+s50862
+
+N/Users/Joseph/Documents/PlayBook/Images/ShotPattern.png
+c000000004C8D3F040000000000000C09
+t1284325124
+s3081
+
+N/Users/Joseph/Documents/PlayBook/MainWindow.xib
+c000000004C76A9E90000000000007767
+t1282845161
+s30567
+
+N/Users/Joseph/Documents/PlayBook/RootView.xib
+c000000004C76C486000000000000839E
+t1282851974
+s33694
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Info.plist
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/ArrowheadCut.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/ArrowheadShot.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/BallToken.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/ConeToken.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/Court.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DefenseToken.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DetailView.nib
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DrawModeCut.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DrawModeDribble.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DrawModeFreehand.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DrawModePass.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DrawModeScreen.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DrawModeShot.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/DribblePattern.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/LCD.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/OffenseToken.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/RecycleBin.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/RootView.nib
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/ShotPattern.png
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Resources/segmental.ttf
+t2
+s0
+
+N/Users/Joseph/Documents/PlayBook/segmental.ttf
+c000000004BB2575C0000000000005BF0
+t1269978972
+s23536
+
+NPlayBook-Info.plist
+c000000004CD5C4F900000000000004F5
+t1289078009
+s1269
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310777950#310777950#0(99"[BEROR]No architectures to compile for (ARCHS=, VALID_ARCHS=i386 ppc ppc64 ppc7400 ppc970 x86_64).1(4@91"No architectures to compile for (ARCHS=, VALID_ARCHS=i386 ppc ppc64 ppc7400 ppc970 x86_64).310777950#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileXIB /Users/Joseph/Documents/PlayBook/DetailView.xib
+r0
+
+CCompileXIB /Users/Joseph/Documents/PlayBook/MainWindow.xib
+r0
+
+CCompileXIB /Users/Joseph/Documents/PlayBook/RootView.xib
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/ArrowheadCut.png Images/ArrowheadCut.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/ArrowheadShot.png Images/ArrowheadShot.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/BallToken.png Images/BallToken.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/ConeToken.png Images/ConeToken.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/Court.png Images/Court.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/DefenseToken.png Images/DefenseToken.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/DrawModeCut.png Images/DrawModeCut.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/DrawModeDribble.png Images/DrawModeDribble.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/DrawModeFreehand.png Images/DrawModeFreehand.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/DrawModePass.png Images/DrawModePass.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/DrawModeScreen.png Images/DrawModeScreen.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/DrawModeShot.png Images/DrawModeShot.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/DribblePattern.png Images/DribblePattern.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/LCD.png Images/LCD.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/OffenseToken.png Images/OffenseToken.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/RecycleBin.png Images/RecycleBin.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/ShotPattern.png Images/ShotPattern.png
+r0
+
+CCpResource build/Debug/PlayBook.app/Contents/Resources/segmental.ttf segmental.ttf
+r0
+
+CProcessInfoPlistFile /Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app/Contents/Info.plist PlayBook-Info.plist
+r0
+
+CTouch /Users/Joseph/Documents/PlayBook/build/Debug/PlayBook.app
+r0
+

@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PlayBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PlayBookAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2804200B108E984D000629CD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* RootViewController.m */; };
+		2804200C108E984D000629CD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804200A108E984D000629CD /* DetailViewController.m */; };
+		2804203C108E9BAB000629CD /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2804203B108E9BAB000629CD /* DetailView.xib */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		7C03EB6F12A7136D000BC3B9 /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C03EB6D12A7136D000BC3B9 /* PauseButton.png */; };
+		7C03EB7012A7136D000BC3B9 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C03EB6E12A7136D000BC3B9 /* PlayButton.png */; };
+		7C0CD7E9130F1ABE004A75B0 /* icon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CD7E5130F1ABE004A75B0 /* icon_add.png */; };
+		7C0CD7EA130F1ABE004A75B0 /* icon_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CD7E6130F1ABE004A75B0 /* icon_arrow_down.png */; };
+		7C0CD7EB130F1ABE004A75B0 /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CD7E7130F1ABE004A75B0 /* icon_arrow_up.png */; };
+		7C0CD7EC130F1ABE004A75B0 /* icon_controls_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CD7E8130F1ABE004A75B0 /* icon_controls_3.png */; };
+		7C0CD834131212EE004A75B0 /* TextView.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CD833131212EE004A75B0 /* TextView.png */; };
+		7C51114B1285F200002FDA42 /* LCD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C51114A1285F200002FDA42 /* LCD.png */; };
+		7C5111561285F7E7002FDA42 /* segmental.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5111551285F7E7002FDA42 /* segmental.ttf */; };
+		7C641FEE123D770500EC4DAB /* ShotPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C641FED123D770500EC4DAB /* ShotPattern.png */; };
+		7C641FFD123D78A300EC4DAB /* ArrowheadShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C641FFC123D78A300EC4DAB /* ArrowheadShot.png */; };
+		7C867914121DA9EC00BF3F3A /* Court.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C867911121DA9EC00BF3F3A /* Court.png */; };
+		7C867915121DA9EC00BF3F3A /* DefenseToken.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C867912121DA9EC00BF3F3A /* DefenseToken.png */; };
+		7C867916121DA9EC00BF3F3A /* OffenseToken.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C867913121DA9EC00BF3F3A /* OffenseToken.png */; };
+		7C867930121DB96300BF3F3A /* ConeToken.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C86792F121DB96300BF3F3A /* ConeToken.png */; };
+		7C867935121DC79E00BF3F3A /* TokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C867934121DC79E00BF3F3A /* TokenView.m */; };
+		7C86793F121DC9D300BF3F3A /* BallToken.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C86793E121DC9D300BF3F3A /* BallToken.png */; };
+		7C867A57121E3CBF00BF3F3A /* RecycleBin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C867A56121E3CBF00BF3F3A /* RecycleBin.png */; };
+		7C9CB48212DE1CFF00FA2407 /* LoadPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9CB48112DE1CFF00FA2407 /* LoadPlayViewController.m */; };
+		7C9E819C123AC33500274E3E /* ArrowheadCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E819B123AC33500274E3E /* ArrowheadCut.png */; };
+		7C9E822D123B20DA00274E3E /* DribblePattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E822C123B20DA00274E3E /* DribblePattern.png */; };
+		7CB08A1D121F73E200C185CB /* DrawSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB08A1C121F73E200C185CB /* DrawSelectView.m */; };
+		7CB716401226DEF4000E9EE4 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7163F1226DEF4000E9EE4 /* RootView.xib */; };
+		7CB71660122703FE000E9EE4 /* DrawModeCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB71659122703FE000E9EE4 /* DrawModeCut.png */; };
+		7CB71661122703FE000E9EE4 /* DrawModeDribble.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7165A122703FE000E9EE4 /* DrawModeDribble.png */; };
+		7CB71662122703FE000E9EE4 /* DrawModeFreehand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7165B122703FE000E9EE4 /* DrawModeFreehand.png */; };
+		7CB71663122703FE000E9EE4 /* DrawModePass.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7165C122703FE000E9EE4 /* DrawModePass.png */; };
+		7CB71664122703FE000E9EE4 /* DrawModeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7165D122703FE000E9EE4 /* DrawModeScreen.png */; };
+		7CB71665122703FE000E9EE4 /* DrawModeShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7165E122703FE000E9EE4 /* DrawModeShot.png */; };
+		7CC100A7123722EA00470168 /* DrawnObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC100A6123722EA00470168 /* DrawnObjectView.m */; };
+		7CC5AD7012401DB2007162AD /* PlayMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5AD6F12401DB2007162AD /* PlayMovement.m */; };
+		7CE10D651338144200F005BC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE10D641338144200F005BC /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PlayBookAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayBookAppDelegate.h; path = Classes/PlayBookAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PlayBookAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayBookAppDelegate.m; path = Classes/PlayBookAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PlayBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28042007108E984D000629CD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
+		28042008108E984D000629CD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; };
+		28042009108E984D000629CD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Classes/DetailViewController.h; sourceTree = "<group>"; };
+		2804200A108E984D000629CD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Classes/DetailViewController.m; sourceTree = "<group>"; };
+		2804203B108E9BAB000629CD /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* PlayBook_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayBook_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C03EB6D12A7136D000BC3B9 /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PauseButton.png; path = Images/PauseButton.png; sourceTree = "<group>"; };
+		7C03EB6E12A7136D000BC3B9 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlayButton.png; path = Images/PlayButton.png; sourceTree = "<group>"; };
+		7C0CD7E5130F1ABE004A75B0 /* icon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_add.png; path = Images/icon_add.png; sourceTree = "<group>"; };
+		7C0CD7E6130F1ABE004A75B0 /* icon_arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_arrow_down.png; path = Images/icon_arrow_down.png; sourceTree = "<group>"; };
+		7C0CD7E7130F1ABE004A75B0 /* icon_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_arrow_up.png; path = Images/icon_arrow_up.png; sourceTree = "<group>"; };
+		7C0CD7E8130F1ABE004A75B0 /* icon_controls_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_controls_3.png; path = Images/icon_controls_3.png; sourceTree = "<group>"; };
+		7C0CD833131212EE004A75B0 /* TextView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextView.png; path = Images/TextView.png; sourceTree = "<group>"; };
+		7C51114A1285F200002FDA42 /* LCD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LCD.png; path = Images/LCD.png; sourceTree = "<group>"; };
+		7C5111551285F7E7002FDA42 /* segmental.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segmental.ttf; sourceTree = "<group>"; };
+		7C641FED123D770500EC4DAB /* ShotPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShotPattern.png; path = Images/ShotPattern.png; sourceTree = "<group>"; };
+		7C641FFC123D78A300EC4DAB /* ArrowheadShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowheadShot.png; path = Images/ArrowheadShot.png; sourceTree = "<group>"; };
+		7C867911121DA9EC00BF3F3A /* Court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Court.png; path = Images/Court.png; sourceTree = "<group>"; };
+		7C867912121DA9EC00BF3F3A /* DefenseToken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DefenseToken.png; path = Images/DefenseToken.png; sourceTree = "<group>"; };
+		7C867913121DA9EC00BF3F3A /* OffenseToken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OffenseToken.png; path = Images/OffenseToken.png; sourceTree = "<group>"; };
+		7C86792F121DB96300BF3F3A /* ConeToken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ConeToken.png; path = Images/ConeToken.png; sourceTree = "<group>"; };
+		7C867933121DC79E00BF3F3A /* TokenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TokenView.h; path = Classes/TokenView.h; sourceTree = "<group>"; };
+		7C867934121DC79E00BF3F3A /* TokenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TokenView.m; path = Classes/TokenView.m; sourceTree = "<group>"; };
+		7C86793E121DC9D300BF3F3A /* BallToken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BallToken.png; path = Images/BallToken.png; sourceTree = "<group>"; };
+		7C867A56121E3CBF00BF3F3A /* RecycleBin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RecycleBin.png; path = Images/RecycleBin.png; sourceTree = "<group>"; };
+		7C9CB48012DE1CFF00FA2407 /* LoadPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadPlayViewController.h; sourceTree = "<group>"; };
+		7C9CB48112DE1CFF00FA2407 /* LoadPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadPlayViewController.m; sourceTree = "<group>"; };
+		7C9E819B123AC33500274E3E /* ArrowheadCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowheadCut.png; path = Images/ArrowheadCut.png; sourceTree = "<group>"; };
+		7C9E822C123B20DA00274E3E /* DribblePattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DribblePattern.png; path = Images/DribblePattern.png; sourceTree = "<group>"; };
+		7CB08A1B121F73E200C185CB /* DrawSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSelectView.h; sourceTree = "<group>"; };
+		7CB08A1C121F73E200C185CB /* DrawSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSelectView.m; sourceTree = "<group>"; };
+		7CB7163F1226DEF4000E9EE4 /* RootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
+		7CB71659122703FE000E9EE4 /* DrawModeCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DrawModeCut.png; path = Images/DrawModeCut.png; sourceTree = "<group>"; };
+		7CB7165A122703FE000E9EE4 /* DrawModeDribble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DrawModeDribble.png; path = Images/DrawModeDribble.png; sourceTree = "<group>"; };
+		7CB7165B122703FE000E9EE4 /* DrawModeFreehand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DrawModeFreehand.png; path = Images/DrawModeFreehand.png; sourceTree = "<group>"; };
+		7CB7165C122703FE000E9EE4 /* DrawModePass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DrawModePass.png; path = Images/DrawModePass.png; sourceTree = "<group>"; };
+		7CB7165D122703FE000E9EE4 /* DrawModeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DrawModeScreen.png; path = Images/DrawModeScreen.png; sourceTree = "<group>"; };
+		7CB7165E122703FE000E9EE4 /* DrawModeShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DrawModeShot.png; path = Images/DrawModeShot.png; sourceTree = "<group>"; };
+		7CC100A5123722EA00470168 /* DrawnObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawnObjectView.h; sourceTree = "<group>"; };
+		7CC100A6123722EA00470168 /* DrawnObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawnObjectView.m; sourceTree = "<group>"; };
+		7CC5AD6E12401DB2007162AD /* PlayMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMovement.h; sourceTree = "<group>"; };
+		7CC5AD6F12401DB2007162AD /* PlayMovement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayMovement.m; sourceTree = "<group>"; };
+		7CE10D641338144200F005BC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* PlayBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PlayBook-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PlayBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7CB9A3C4121D8F630019F964 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* PlayBook_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C867918121DA9F900BF3F3A /* Images */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				2804203B108E9BAB000629CD /* DetailView.xib */,
+				7CB7163F1226DEF4000E9EE4 /* RootView.xib */,
+				7C5111551285F7E7002FDA42 /* segmental.ttf */,
+				8D1107310486CEB800E47090 /* PlayBook-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C867918121DA9F900BF3F3A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7CE10D641338144200F005BC /* Icon.png */,
+				7C0CD7E5130F1ABE004A75B0 /* icon_add.png */,
+				7C0CD7E6130F1ABE004A75B0 /* icon_arrow_down.png */,
+				7C0CD7E7130F1ABE004A75B0 /* icon_arrow_up.png */,
+				7C0CD7E8130F1ABE004A75B0 /* icon_controls_3.png */,
+				7C9E819B123AC33500274E3E /* ArrowheadCut.png */,
+				7C641FFC123D78A300EC4DAB /* ArrowheadShot.png */,
+				7C867911121DA9EC00BF3F3A /* Court.png */,
+				7C86793E121DC9D300BF3F3A /* BallToken.png */,
+				7C86792F121DB96300BF3F3A /* ConeToken.png */,
+				7C867912121DA9EC00BF3F3A /* DefenseToken.png */,
+				7C641FED123D770500EC4DAB /* ShotPattern.png */,
+				7C9E822C123B20DA00274E3E /* DribblePattern.png */,
+				7C867913121DA9EC00BF3F3A /* OffenseToken.png */,
+				7CB71659122703FE000E9EE4 /* DrawModeCut.png */,
+				7CB7165A122703FE000E9EE4 /* DrawModeDribble.png */,
+				7CB7165B122703FE000E9EE4 /* DrawModeFreehand.png */,
+				7CB7165C122703FE000E9EE4 /* DrawModePass.png */,
+				7CB7165D122703FE000E9EE4 /* DrawModeScreen.png */,
+				7CB7165E122703FE000E9EE4 /* DrawModeShot.png */,
+				7C03EB6D12A7136D000BC3B9 /* PauseButton.png */,
+				7C03EB6E12A7136D000BC3B9 /* PlayButton.png */,
+				7C51114A1285F200002FDA42 /* LCD.png */,
+				7C867A56121E3CBF00BF3F3A /* RecycleBin.png */,
+				7C0CD833131212EE004A75B0 /* TextView.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7CB9A3C4121D8F630019F964 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5AD6E12401DB2007162AD /* PlayMovement.h */,
+				7CC5AD6F12401DB2007162AD /* PlayMovement.m */,
+				7C867933121DC79E00BF3F3A /* TokenView.h */,
+				7C867934121DC79E00BF3F3A /* TokenView.m */,
+				7CB08A1B121F73E200C185CB /* DrawSelectView.h */,
+				7CB08A1C121F73E200C185CB /* DrawSelectView.m */,
+				7CC100A5123722EA00470168 /* DrawnObjectView.h */,
+				7CC100A6123722EA00470168 /* DrawnObjectView.m */,
+				1D3623240D0F684500981E51 /* PlayBookAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PlayBookAppDelegate.m */,
+				7C9CB48012DE1CFF00FA2407 /* LoadPlayViewController.h */,
+				7C9CB48112DE1CFF00FA2407 /* LoadPlayViewController.m */,
+				28042007108E984D000629CD /* RootViewController.h */,
+				28042008108E984D000629CD /* RootViewController.m */,
+				28042009108E984D000629CD /* DetailViewController.h */,
+				2804200A108E984D000629CD /* DetailViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PlayBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PlayBook" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayBook;
+			productName = PlayBook;
+			productReference = 1D6058910D05DD3D006BFB54 /* PlayBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PlayBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PlayBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2804203C108E9BAB000629CD /* DetailView.xib in Resources */,
+				7C867914121DA9EC00BF3F3A /* Court.png in Resources */,
+				7C867915121DA9EC00BF3F3A /* DefenseToken.png in Resources */,
+				7C867916121DA9EC00BF3F3A /* OffenseToken.png in Resources */,
+				7C867930121DB96300BF3F3A /* ConeToken.png in Resources */,
+				7C86793F121DC9D300BF3F3A /* BallToken.png in Resources */,
+				7C867A57121E3CBF00BF3F3A /* RecycleBin.png in Resources */,
+				7CB716401226DEF4000E9EE4 /* RootView.xib in Resources */,
+				7CB71660122703FE000E9EE4 /* DrawModeCut.png in Resources */,
+				7CB71661122703FE000E9EE4 /* DrawModeDribble.png in Resources */,
+				7CB71662122703FE000E9EE4 /* DrawModeFreehand.png in Resources */,
+				7CB71663122703FE000E9EE4 /* DrawModePass.png in Resources */,
+				7CB71664122703FE000E9EE4 /* DrawModeScreen.png in Resources */,
+				7CB71665122703FE000E9EE4 /* DrawModeShot.png in Resources */,
+				7C9E819C123AC33500274E3E /* ArrowheadCut.png in Resources */,
+				7C9E822D123B20DA00274E3E /* DribblePattern.png in Resources */,
+				7C641FEE123D770500EC4DAB /* ShotPattern.png in Resources */,
+				7C641FFD123D78A300EC4DAB /* ArrowheadShot.png in Resources */,
+				7C51114B1285F200002FDA42 /* LCD.png in Resources */,
+				7C5111561285F7E7002FDA42 /* segmental.ttf in Resources */,
+				7C03EB6F12A7136D000BC3B9 /* PauseButton.png in Resources */,
+				7C03EB7012A7136D000BC3B9 /* PlayButton.png in Resources */,
+				7C0CD7E9130F1ABE004A75B0 /* icon_add.png in Resources */,
+				7C0CD7EA130F1ABE004A75B0 /* icon_arrow_down.png in Resources */,
+				7C0CD7EB130F1ABE004A75B0 /* icon_arrow_up.png in Resources */,
+				7C0CD7EC130F1ABE004A75B0 /* icon_controls_3.png in Resources */,
+				7C0CD834131212EE004A75B0 /* TextView.png in Resources */,
+				7CE10D651338144200F005BC /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PlayBookAppDelegate.m in Sources */,
+				2804200B108E984D000629CD /* RootViewController.m in Sources */,
+				2804200C108E984D000629CD /* DetailViewController.m in Sources */,
+				7C867935121DC79E00BF3F3A /* TokenView.m in Sources */,
+				7CB08A1D121F73E200C185CB /* DrawSelectView.m in Sources */,
+				7CC100A7123722EA00470168 /* DrawnObjectView.m in Sources */,
+				7CC5AD7012401DB2007162AD /* PlayMovement.m in Sources */,
+				7C9CB48212DE1CFF00FA2407 /* LoadPlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PlayBook_Prefix.pch;
+				INFOPLIST_FILE = "PlayBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = PlayBook;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PlayBook_Prefix.pch;
+				INFOPLIST_FILE = "PlayBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = PlayBook;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andy Dold (K4YH652V5Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andy Dold (K4YH652V5Q)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "FDE70F56-F5F9-46C0-8B96-B3D8AB9164E1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FDE70F56-F5F9-46C0-8B96-B3D8AB9164E1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andy Dold";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andy Dold";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "80E58D61-30D7-43A1-80CF-39CC4B1ECADD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "80E58D61-30D7-43A1-80CF-39CC4B1ECADD";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PlayBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PlayBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
